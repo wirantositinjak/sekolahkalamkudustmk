@@ -17,7 +17,7 @@
 
     <div class="content text-center">
          <div class="flex flex-col items-center text-center mb-10">
-    <img src="{{ asset('images/KBTK2.jpg') }}" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <img src="./images/KBTK2.jpg" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
     <h1 class="text-3xl font-bold text-gray-800">Profil KB-TK Kristen Kalam Kudus Timika</h1>
     <div class="w-24 h-1 bg-blue-600 mt-2"></div>
   </div>

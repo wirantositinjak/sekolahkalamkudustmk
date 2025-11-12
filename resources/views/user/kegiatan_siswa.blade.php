@@ -36,7 +36,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <img src="{{ asset('images/logoskkk.png') }}" class="card-img-top" alt="Kegiatan TK-KB">
+                        <img src="./images/logoskkk.png" class="card-img-top" alt="Kegiatan TK-KB">
                         <div class="card-body">
                             <h5 class="card-title">Belajar Sambil Bermain</h5>
                             <p class="card-text">Kegiatan edukatif yang dirancang untuk menumbuhkan kreativitas dan keceriaan anak-anak TK & KB.</p>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <img src="{{ asset('images/logoskkk.png') }}" class="card-img-top" alt="Kegiatan TK-KB 2">
+                        <img src="./images/logoskkk.png" class="card-img-top" alt="Kegiatan TK-KB 2">
                         <div class="card-body">
                             <h5 class="card-title">Perayaan Hari Kartini</h5>
                             <p class="card-text">Menanamkan nilai nasionalisme dan menghargai pahlawan perempuan Indonesia.</p>
@@ -60,7 +60,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <img src="{{ asset('images/logoskkk.png') }}" class="card-img-top" alt="Kegiatan SD">
+                        <img src="./images/logoskkk.png" class="card-img-top" alt="Kegiatan SD">
                         <div class="card-body">
                             <h5 class="card-title">Lomba Sains dan Seni</h5>
                             <p class="card-text">Mengasah kemampuan akademik dan kreativitas siswa dalam ajang kompetitif yang menyenangkan.</p>
@@ -75,7 +75,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <img src="{{ asset('images/logoskkk.png') }}" class="card-img-top" alt="Kegiatan SMP">
+                        <img src="./images/logoskkk.png" class="card-img-top" alt="Kegiatan SMP">
                         <div class="card-body">
                             <h5 class="card-title">Retreat Rohani</h5>
                             <p class="card-text">Menumbuhkan spiritualitas dan karakter Kristiani melalui kegiatan bersama di luar sekolah.</p>
@@ -90,7 +90,7 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <img src="{{ asset('images/logoskkk.png') }}" class="card-img-top" alt="Kegiatan SMA">
+                        <img src="./images/logoskkk.png" class="card-img-top" alt="Kegiatan SMA">
                         <div class="card-body">
                             <h5 class="card-title">Bakti Sosial</h5>
                             <p class="card-text">Siswa SMA Kalam Kudus belajar menjadi berkat dengan membantu masyarakat sekitar.</p>

@@ -116,7 +116,7 @@
       @foreach ($guruList as $guru)
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="card shadow-sm border-0 h-100 text-center guru-card">
-          <img src="{{ asset('images/'.$guru['img']) }}" 
+          <img src="images/{{ $guru['img'] }}"> 
                class="card-img-top guru-photo" 
                alt="{{ $guru['nama'] }}">
 

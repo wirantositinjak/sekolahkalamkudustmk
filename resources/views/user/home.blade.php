@@ -17,7 +17,7 @@
   <!-- Gambar Banner -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/banner1.jpg'" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Banner 1">
+      <img src="./images/banner1.jpg'" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Banner 1">
       <div class="carousel-caption d-flex justify-content-end align-items-end h-100 p-4">
         <div class="card bg-dark bg-opacity-50 text-end text-white p-4 shadow-lg" style="max-width: 450px; border-radius: 15px;">
           <h2 class="fw-bold">Selamat Datang di Sekolah Kristen Kalam Kudus</h2>
@@ -47,7 +47,7 @@
     </div>
 
     <div class="carousel-item">
-      <img src="/assets/images/banner3.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Banner 3">
+      <img src="./images/banner3.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Banner 3">
       <div class="carousel-caption d-flex justify-content-end align-items-end h-100 p-4">
         <div class="card bg-dark bg-opacity-50 text-end text-white p-4 shadow-lg" style="max-width: 450px; border-radius: 15px;">
           <h2 class="fw-bold">Mewujudkan Generasi Emas yang Beriman</h2>
@@ -79,7 +79,7 @@
       
       <!-- Kolom Gambar -->
       <div class="col-md-6 mb-4 mb-md-0">
-        <img src="./assets/images/anaksekolah.jpg" alt="Apa Itu Smart" class="img-fluid rounded-4 shadow">
+        <img src="./images/anaksekolah.jpg" alt="Apa Itu Smart" class="img-fluid rounded-4 shadow">
       </div>
 
       <!-- Kolom Teks -->

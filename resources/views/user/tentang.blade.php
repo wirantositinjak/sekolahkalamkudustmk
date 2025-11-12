@@ -20,7 +20,7 @@
 
      <!-- LOGO -->
   <div class="flex flex-col items-center text-center mb-10">
-    <img src="{{ asset('images/logoskkk.png') }}" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <img src="./images/logoskkk.png" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
     <h1 class="text-3xl font-bold text-gray-800">Makna Logo Kalam Kudus</h1>
     <div class="w-24 h-1 bg-blue-600 mt-2"></div>
   </div>
@@ -54,7 +54,7 @@
   <div class="row align-items-start justify-content-center mb-5">
     <!-- Gambar Logo -->
     <div class="col-12 col-md-5 text-center mb-4 mb-md-0">
-      <img src="{{ asset('images/makna.png') }}" 
+      <img src="./images/makna.png" 
            alt="Makna Logo Kalam Kudus" 
            class="img-fluid rounded shadow-sm" 
            style="max-width: 100%; height: auto;">
@@ -127,7 +127,7 @@
 <br>
   <div>
     <div class="flex flex-col items-center text-center mb-10">
-    <img src="{{ asset('images/nilaiinti.jpg') }}" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <img src="./images/nilaiinti.jpg" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
     <h1 class="text-3xl font-bold text-gray-800">Nilai Inti (Core Value)</h1>
     <div class="w-24 h-1 bg-blue-600 mt-2"></div>
   </div>
@@ -147,7 +147,7 @@
     
   <div>
      <div class="flex flex-col items-center text-center mb-10">
-    <img src="{{ asset('images/pilarkalamkudus.jpg') }}" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <img src="./images/pilarkalamkudus.jpg" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
     <h1 class="text-3xl font-bold text-gray-800">Pilar Utama</h1>
     <div class="w-24 h-1 bg-blue-600 mt-2"></div>
   </div>
@@ -168,7 +168,7 @@
 <br>
   <div>
     <div class="flex flex-col items-center text-center mb-10">
-    <img src="{{ asset('images/kurikulum.jpg') }}" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <img src="./images/kurikulum.jpg" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
     <h1 class="text-3xl font-bold text-gray-800">Kurikulum Sekolah Kristen Kalam Kudus</h1>
     <div class="w-24 h-1 bg-blue-600 mt-2"></div>
   </div>

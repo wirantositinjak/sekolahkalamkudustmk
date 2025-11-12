@@ -3,7 +3,7 @@
     <div class="row">
       <!-- Kiri: Logo + Tagline + Sosmed + Peta -->
       <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start">
-        <img src="{{ asset('images/skkk_timika_footer.png') }}" 
+        <img src="./images/skkk_timika_footer.png" 
              alt="Logo Sekolah Kalam Kudus Timika" 
              class="img-fluid mb-3" 
              style="max-height: 90px;">
