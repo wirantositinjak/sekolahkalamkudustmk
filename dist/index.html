@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sekolah Kalam Kudus</title>
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Optional: Tambahkan CSS global sendiri -->
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <header class="bg-white shadow-sm py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo Sekolah -->
+        <div class="d-flex align-items-center">
+            <img src="http://localhost/images/skkk_timika.png" alt="Logo Kalam Kudus" class="me-2" style="height: 50px;">
+        </div>
+
+        <!-- Sosial Media -->
+        <div class="d-flex align-items-center">
+            <!-- Instagram -->
+            <a href="ttps://www.instagram.com/kalamkudustmk/" target="_blank" class="text-decoration-none text-dark d-flex align-items-center me-3">
+                <i class="bi bi-instagram fs-4 me-1 text-danger"></i>
+                <span class="d-none d-lg-inline">@kalamkudustmk</span>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/kalamkudustmk.sch.id" target="_blank" class="text-decoration-none text-dark d-flex align-items-center me-3">
+                <i class="bi bi-facebook fs-4 me-1 text-primary"></i>
+                <span class="d-none d-lg-inline">kalamkudustmk.sch.id</span>
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/c/kalamkudustmk" target="_blank" class="text-decoration-none text-dark d-flex align-items-center">
+                <i class="bi bi-youtube fs-4 me-1 text-danger"></i>
+                <span class="d-none d-lg-inline">kalamkudustmk</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+  
+  <!-- NAVBAR UTAMA -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003366;">
+  <div class="container">
+    <!-- Tombol toggle untuk mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Navigasi -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="/">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/guru">Guru & Staff</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/siswa">Siswa / Kegiatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/berita">Berita & Pengumuman</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/majalah-dinding">Majalah Dinding</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/renungan">Renungan</a>
+        </li>
+
+        <!-- Alumni Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="alumniDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Alumni
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/alumni/kb-tk">KB-TK</a></li>
+            <li><a class="dropdown-item" href="/alumni/sd">SD</a></li>
+            <li><a class="dropdown-item" href="/alumni/smp">SMP</a></li>
+            <li><a class="dropdown-item" href="/alumni/sma">SMA</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="/galeri">Galeri Foto & Video</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="/tentang">Tentang Kami</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    color: #FFD700 !important;
+    text-decoration: underline;
+  }
+
+  .dropdown-menu {
+    background-color: #003366;
+  }
+
+  .dropdown-item {
+    color: white;
+  }
+
+  .dropdown-item:hover {
+    background-color: #002244;
+    color: #FFD700;
+  }
+</style>
+
+  
+  <main class="flex-grow-1">
+       
+
+<!-- Banner Full Width -->
+
+<div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+  
+  <!-- Titik indikator -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+    <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- Gambar Banner -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="http://localhost/images/banner1.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Banner 1">
+      <div class="carousel-caption d-flex justify-content-end align-items-end h-100 p-4">
+        <div class="card bg-dark bg-opacity-50 text-end text-white p-4 shadow-lg" style="max-width: 450px; border-radius: 15px;">
+          <h2 class="fw-bold">Selamat Datang di Sekolah Kristen Kalam Kudus</h2>
+          <p class="mb-3">
+            PARENTS AS A TEACHER<br>
+            KBTK KRISTEN KALAM KUDUS TIMIKA<br>
+            Pendidikan anak usia dini adalah sebuah perjalanan kolaboratif antara sekolah dan rumah.
+            Di KBTK Kristen Kalam Kudus Timika, kami percaya bahwa setiap anak unik dan berharga.
+          </p>
+          <a href="/tentang" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="http://localhost/images/banner2.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Banner 2">
+      <div class="carousel-caption d-flex justify-content-end align-items-end h-100 p-4">
+        <div class="card bg-dark bg-opacity-50 text-end text-white p-4 shadow-lg" style="max-width: 450px; border-radius: 15px;">
+          <h2 class="fw-bold">Mendidik dengan Kasih dan Kebenaran</h2>
+          <p class="mb-3">
+            Kami berkomitmen menanamkan nilai-nilai Kristiani dan kecerdasan moral
+            agar setiap siswa menjadi pribadi yang berkarakter, cerdas, dan berintegritas.
+          </p>
+          <a href="/tentang" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="http://localhost/images/banner3.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Banner 3">
+      <div class="carousel-caption d-flex justify-content-end align-items-end h-100 p-4">
+        <div class="card bg-dark bg-opacity-50 text-end text-white p-4 shadow-lg" style="max-width: 450px; border-radius: 15px;">
+          <h2 class="fw-bold">Mewujudkan Generasi Emas yang Beriman</h2>
+          <p class="mb-3">
+            Melalui pendidikan yang menyeluruh, Kalam Kudus Timika membantu siswa
+            bertumbuh dalam iman, pengetahuan, dan karakter untuk masa depan yang gemilang.
+          </p>
+          <a href="/tentang" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tombol navigasi -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+
+<div class="container py-4">
+<!-- Section: Apa Itu Smart -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5" style="color:#0d47a1;">Apa Itu Smart?</h2>
+    <div class="row align-items-center">
+      
+      <!-- Kolom Gambar -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="http://localhost/images/anaksekolah.jpg" alt="Apa Itu Smart" class="img-fluid rounded-4 shadow">
+      </div>
+
+      <!-- Kolom Teks -->
+      <div class="col-md-6">
+        <h4 class="fw-semibold text-primary mb-3">Membentuk pribadi yang SMART</h4>
+        <p class="text-secondary" style="text-align: justify;">
+          SMART adalah suatu framework atau kerangka pikir yang memberikan acuan, arah, dan peta bagi SKKK Yogyakarta dalam merancang dan menjalankan seluruh strategi, program, dan kegiatan — baik dalam hal kurikulum, proses belajar mengajar, kegiatan non akademik, pembinaan spiritual dan karakter, pengembangan sarana dan prasarana, hingga pengelolaan SDM, serta keseluruhan aspek pengelolaan dan pengembangan sekolah lainnya.
+        </p>
+        <p class="text-secondary" style="text-align: justify;">
+          Dengan SMART, seluruh guru dan murid di Kalam Kudus diharapkan untuk:
+        </p>
+        <ol>
+            <li>Bertumbuh secara Spiritual (S)</li>
+            <li>Mengerjakan Misi Kasih Allah (M)</li>
+            <li>Unggul dalam hal Akademik (A)</li>
+            <li>Menjalin Relasi yang Baik (R)</li>
+            <li>Memberikan Dampak Transformatif (T)</li>
+        </ol>
+           
+        <br>
+        <a href="/tentang" class="btn btn-primary rounded-pill fw-semibold px-4 py-2 shadow-sm">
+          Selengkapnya
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Section: Pengumuman Sekolah -->
+<section class="py-5 bg-white">
+  <div class="container position-relative">
+    <!-- Judul + Tombol "Lihat Semua" -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="fw-bold mb-0" style="color:#0d47a1;">Pengumuman Sekolah</h2>
+      <a href="/tentang" class="btn btn-outline-primary rounded-pill fw-semibold">
+        Lihat Semua
+      </a>
+    </div>
+
+    <!-- Wrapper untuk Scroll Horizontal -->
+    <div class="announcement-slider d-flex overflow-auto pb-3" id="announcementSlider">
+      
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman1.jpg" class="card-img-top rounded-top" alt="Pengumuman 1" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman2.jpg" class="card-img-top rounded-top" alt="Pengumuman 2" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman3.jpg" class="card-img-top rounded-top" alt="Pengumuman 3" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman4.jpg" class="card-img-top rounded-top" alt="Pengumuman 4" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman5.jpg" class="card-img-top rounded-top" alt="Pengumuman 5" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman6.jpg" class="card-img-top rounded-top" alt="Pengumuman 6" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman7.jpg" class="card-img-top rounded-top" alt="Pengumuman 7" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman8.jpg" class="card-img-top rounded-top" alt="Pengumuman 8" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman9.jpg" class="card-img-top rounded-top" alt="Pengumuman 9" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman10.jpg" class="card-img-top rounded-top" alt="Pengumuman 10" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Section: FASILITAS -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <!-- Judul -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">FASILITAS</h2>
+      <p class="text-secondary">Berbagai fasilitas pendukung kegiatan belajar dan pengembangan siswa di Sekolah Kristen Kalam Kudus Timika</p>
+    </div>
+
+    <!-- Grid Fasilitas -->
+    <div class="row g-4 justify-content-center">
+      
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas1.jpg" 
+               alt="Lapangan Basket" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Lapangan Basket</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas2.jpg" 
+               alt="Laboratorium Komputer" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Laboratorium Komputer</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas3.jpg" 
+               alt="Perpustakaan" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Perpustakaan</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas4.jpg" 
+               alt="Ruang Musik" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Ruang Musik</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas5.jpg" 
+               alt="Lapangan Futsal" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Lapangan Futsal</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas6.jpg" 
+               alt="Ruang Kelas Nyaman" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Ruang Kelas Nyaman</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas7.jpg" 
+               alt="Kantin Sekolah" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Kantin Sekolah</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas8.jpg" 
+               alt="Area Bermain Anak" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Area Bermain Anak</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas9.jpg" 
+               alt="Aula Serbaguna" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Aula Serbaguna</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas10.jpg" 
+               alt="Ruang Seni Rupa" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Ruang Seni Rupa</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas9.jpg" 
+               alt="Aula Serbaguna" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Aula Serbaguna</h5>
+          </div>
+        </div>
+      </div>
+            <div class="col-6 col-md-4 col-lg-3">
+        <div class="facility-card position-relative overflow-hidden rounded-4 shadow-sm">
+          <img src="http://localhost/images/fasilitas10.jpg" 
+               alt="Ruang Seni Rupa" 
+               class="img-fluid w-100 facility-img">
+          <div class="facility-overlay d-flex align-items-center justify-content-center">
+            <h5 class="text-white text-center fw-semibold">Ruang Seni Rupa</h5>
+          </div>
+        </div>
+      </div>
+          </div>
+  </div>
+</section>
+
+
+<!-- Section: Prestasi -->
+<section class="py-5 bg-white">
+  <div class="container position-relative">
+    <!-- Judul + Tombol "Lihat Semua" -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="fw-bold mb-0" style="color:#0d47a1;">Prestasi</h2>
+      <a href="/prestasi" class="btn btn-outline-primary rounded-pill fw-semibold">
+        Lihat Semua
+      </a>
+    </div>
+
+    <!-- Wrapper untuk Scroll Horizontal -->
+    <div class="announcement-slider d-flex overflow-auto pb-3" id="announcementSlider">
+      
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman1.jpg" class="card-img-top rounded-top" alt="Pengumuman 1" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman2.jpg" class="card-img-top rounded-top" alt="Pengumuman 2" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman3.jpg" class="card-img-top rounded-top" alt="Pengumuman 3" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman4.jpg" class="card-img-top rounded-top" alt="Pengumuman 4" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman5.jpg" class="card-img-top rounded-top" alt="Pengumuman 5" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman6.jpg" class="card-img-top rounded-top" alt="Pengumuman 6" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman7.jpg" class="card-img-top rounded-top" alt="Pengumuman 7" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman8.jpg" class="card-img-top rounded-top" alt="Pengumuman 8" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman9.jpg" class="card-img-top rounded-top" alt="Pengumuman 9" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman10.jpg" class="card-img-top rounded-top" alt="Pengumuman 10" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- Section: Prestasi -->
+<section class="py-5 bg-white">
+  <div class="container position-relative">
+    <!-- Judul + Tombol "Lihat Semua" -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="fw-bold mb-0" style="color:#0d47a1;">Berita</h2>
+      <a href="http://localhost/berita" class="btn btn-outline-primary rounded-pill fw-semibold">
+        Lihat Semua
+      </a>
+    </div>
+
+    <!-- Wrapper untuk Scroll Horizontal -->
+    <div class="announcement-slider d-flex overflow-auto pb-3" id="announcementSlider">
+      
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman1.jpg" class="card-img-top rounded-top" alt="Pengumuman 1" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman2.jpg" class="card-img-top rounded-top" alt="Pengumuman 2" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman3.jpg" class="card-img-top rounded-top" alt="Pengumuman 3" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman4.jpg" class="card-img-top rounded-top" alt="Pengumuman 4" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman5.jpg" class="card-img-top rounded-top" alt="Pengumuman 5" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman6.jpg" class="card-img-top rounded-top" alt="Pengumuman 6" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman7.jpg" class="card-img-top rounded-top" alt="Pengumuman 7" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman8.jpg" class="card-img-top rounded-top" alt="Pengumuman 8" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman9.jpg" class="card-img-top rounded-top" alt="Pengumuman 9" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+            <div class="card announcement-card me-3 flex-shrink-0" style="width: 300px; position: relative;">
+        <!-- Mark Label -->
+        <span class="badge bg-danger position-absolute top-0 end-0 m-2 px-3 py-2 shadow-sm" style="border-radius: 1rem;">
+          Baru
+        </span>
+
+        <!-- Gambar -->
+        <img src="http://localhost/images/pengumuman10.jpg" class="card-img-top rounded-top" alt="Pengumuman 10" style="height:180px; object-fit: cover;">
+
+        <!-- Isi Card -->
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
+            Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.
+          </p>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+</div>
+
+<style>
+
+     .facility-card {
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .facility-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .facility-card:hover .facility-img {
+    transform: scale(1.1);
+  }
+
+  .facility-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .facility-card:hover .facility-overlay {
+    opacity: 1;
+  }
+
+  .facility-overlay h5 {
+    background: rgba(0,0,0,0.6);
+    padding: 8px 16px;
+    border-radius: 12px;
+  }
+
+  @media (max-width: 767px) {
+    .facility-card {
+      height: 180px;
+    }
+  }
+
+    .announcement-slider::-webkit-scrollbar {
+    height: 8px;
+  }
+  .announcement-slider::-webkit-scrollbar-thumb {
+    background-color: #0d47a1;
+    border-radius: 10px;
+  }
+  .announcement-slider::-webkit-scrollbar-track {
+    background: #e0e0e0;
+  }
+  .announcement-card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    transition: all 0.3s ease;
+  }
+  .announcement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+
+  
+  .carousel-caption {
+    bottom: 30px;
+  }
+
+  .carousel-caption .card {
+    animation: fadeInUp 1s ease-in-out;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+
+<!-- Script Auto Scroll -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const slider = document.getElementById("announcementSlider");
+    const scrollStep = 1;
+    let isHovered = false;
+
+    slider.addEventListener("mouseenter", () => isHovered = true);
+    slider.addEventListener("mouseleave", () => isHovered = false);
+
+    function autoScroll() {
+      if (!isHovered) {
+        slider.scrollLeft += scrollStep;
+        if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 1) {
+          slider.scrollLeft = 0;
+        }
+      }
+    }
+
+    setInterval(autoScroll, 20);
+  });
+</script>
+
+
+  </main>
+
+  
+  <footer class="footer text-white mt-5">
+  <div class="container py-5">
+    <div class="row">
+      <!-- Kiri: Logo + Tagline + Sosmed + Peta -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start">
+        <img src="http://localhost/images/skkk_timika_footer.png" 
+             alt="Logo Sekolah Kalam Kudus Timika" 
+             class="img-fluid mb-3" 
+             style="max-height: 90px;">
+        
+        <p class="fw-semibold fst-italic mb-4" style="font-size: 0.95rem;">
+          “Terbangunnya Manusia Utuh yang Takut akan Tuhan, Mandiri, dan Berguna bagi Dunia.”
+        </p>
+
+        <!-- Sosial Media -->
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 mb-3">
+          <a href="https://www.facebook.com/kalamkudustmk.sch.id" target="_blank" class="text-white fs-4">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/kalamkudustmk/" target="_blank" class="text-white fs-4">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/c/kalamkudustmk" target="_blank" class="text-white fs-4">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+
+        <!-- Peta Lokasi -->
+        <div class="map-container mt-3">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.2739735916791!2d136.8859101!3d-4.576795499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6823794984c2e0b7%3A0xd0d0fa7ff0c5413b!2sKalam%20kudus!5e0!3m2!1sid!2sid!4v1762484020949!5m2!1sid!2sid" 
+            width="100%" 
+            height="200" 
+            style="border:0; border-radius: 10px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Kanan: Form Hubungi Kami -->
+      <div class="col-md-6">
+        <h5 class="fw-bold mb-3 text-center text-md-start">Hubungi Kami</h5>
+        <form action="#" method="POST" class="footer-form">
+          <input type="hidden" name="_token" value="1UQfeBYFFGwAN3Ov3WqCQaPQkyvZMw1tFeFeaiTV" autocomplete="off">          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Alamat Email" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nomor Telepon" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Pesan Anda..." required></textarea>
+          </div>
+          <div class="text-center text-md-start">
+            <button type="submit" class="btn btn-warning fw-semibold px-4">
+              Kirim
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Garis bawah footer -->
+  <div class="footer-bottom text-center py-3 mt-4">
+    <small>© 2025 Sekolah Kristen Kalam Kudus Timika. All rights reserved.</small>
+  </div>
+</footer>
+
+<style>
+  /* Footer Style */
+  
+  .footer {
+    margin-top: auto;
+    background: linear-gradient(135deg, #002b5b 0%, #004e92 100%);
+    border-top: 4px solid #FFD700;
+  }
+
+  .footer .form-control {
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .footer .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.4);
+    outline: none;
+  }
+
+  .footer .btn-warning {
+    background-color: #FFD700;
+    color: #002b5b;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .footer .btn-warning:hover {
+    background-color: #ffc107;
+    transform: translateY(-2px);
+  }
+
+  .footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #f0f0f0;
+    font-size: 0.85rem;
+  }
+
+  /* Map container */
+  .map-container iframe {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Responsif */
+  @media (max-width: 768px) {
+    .footer .form-control {
+      font-size: 0.85rem;
+    }
+  }
+</style>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

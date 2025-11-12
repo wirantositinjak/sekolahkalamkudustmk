@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sekolah Kalam Kudus</title>
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Optional: Tambahkan CSS global sendiri -->
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <header class="bg-white shadow-sm py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo Sekolah -->
+        <div class="d-flex align-items-center">
+            <img src="http://localhost/images/skkk_timika.png" alt="Logo Kalam Kudus" class="me-2" style="height: 50px;">
+        </div>
+
+        <!-- Sosial Media -->
+        <div class="d-flex align-items-center">
+            <!-- Instagram -->
+            <a href="ttps://www.instagram.com/kalamkudustmk/" target="_blank" class="text-decoration-none text-dark d-flex align-items-center me-3">
+                <i class="bi bi-instagram fs-4 me-1 text-danger"></i>
+                <span class="d-none d-lg-inline">@kalamkudustmk</span>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/kalamkudustmk.sch.id" target="_blank" class="text-decoration-none text-dark d-flex align-items-center me-3">
+                <i class="bi bi-facebook fs-4 me-1 text-primary"></i>
+                <span class="d-none d-lg-inline">kalamkudustmk.sch.id</span>
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/c/kalamkudustmk" target="_blank" class="text-decoration-none text-dark d-flex align-items-center">
+                <i class="bi bi-youtube fs-4 me-1 text-danger"></i>
+                <span class="d-none d-lg-inline">kalamkudustmk</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+  
+  <!-- NAVBAR UTAMA -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003366;">
+  <div class="container">
+    <!-- Tombol toggle untuk mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Navigasi -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " href="/">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/guru">Guru & Staff</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/siswa">Siswa / Kegiatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/berita">Berita & Pengumuman</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/majalah-dinding">Majalah Dinding</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/renungan">Renungan</a>
+        </li>
+
+        <!-- Alumni Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="alumniDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Alumni
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/alumni/kb-tk">KB-TK</a></li>
+            <li><a class="dropdown-item" href="/alumni/sd">SD</a></li>
+            <li><a class="dropdown-item" href="/alumni/smp">SMP</a></li>
+            <li><a class="dropdown-item" href="/alumni/sma">SMA</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="/galeri">Galeri Foto & Video</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="/tentang">Tentang Kami</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    color: #FFD700 !important;
+    text-decoration: underline;
+  }
+
+  .dropdown-menu {
+    background-color: #003366;
+  }
+
+  .dropdown-item {
+    color: white;
+  }
+
+  .dropdown-item:hover {
+    background-color: #002244;
+    color: #FFD700;
+  }
+</style>
+
+  
+  <main class="flex-grow-1">
+        <!-- Konten halaman kamu di sini -->
+    <h1>Renungan</h1>
+  </main>
+
+  
+  <footer class="footer text-white mt-5">
+  <div class="container py-5">
+    <div class="row">
+      <!-- Kiri: Logo + Tagline + Sosmed + Peta -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start">
+        <img src="http://localhost/images/skkk_timika_footer.png" 
+             alt="Logo Sekolah Kalam Kudus Timika" 
+             class="img-fluid mb-3" 
+             style="max-height: 90px;">
+        
+        <p class="fw-semibold fst-italic mb-4" style="font-size: 0.95rem;">
+          “Terbangunnya Manusia Utuh yang Takut akan Tuhan, Mandiri, dan Berguna bagi Dunia.”
+        </p>
+
+        <!-- Sosial Media -->
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 mb-3">
+          <a href="https://www.facebook.com/kalamkudustmk.sch.id" target="_blank" class="text-white fs-4">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/kalamkudustmk/" target="_blank" class="text-white fs-4">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/c/kalamkudustmk" target="_blank" class="text-white fs-4">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+
+        <!-- Peta Lokasi -->
+        <div class="map-container mt-3">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.2739735916791!2d136.8859101!3d-4.576795499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6823794984c2e0b7%3A0xd0d0fa7ff0c5413b!2sKalam%20kudus!5e0!3m2!1sid!2sid!4v1762484020949!5m2!1sid!2sid" 
+            width="100%" 
+            height="200" 
+            style="border:0; border-radius: 10px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Kanan: Form Hubungi Kami -->
+      <div class="col-md-6">
+        <h5 class="fw-bold mb-3 text-center text-md-start">Hubungi Kami</h5>
+        <form action="#" method="POST" class="footer-form">
+          <input type="hidden" name="_token" value="1UQfeBYFFGwAN3Ov3WqCQaPQkyvZMw1tFeFeaiTV" autocomplete="off">          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Alamat Email" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nomor Telepon" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Pesan Anda..." required></textarea>
+          </div>
+          <div class="text-center text-md-start">
+            <button type="submit" class="btn btn-warning fw-semibold px-4">
+              Kirim
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Garis bawah footer -->
+  <div class="footer-bottom text-center py-3 mt-4">
+    <small>© 2025 Sekolah Kristen Kalam Kudus Timika. All rights reserved.</small>
+  </div>
+</footer>
+
+<style>
+  /* Footer Style */
+  
+  .footer {
+    margin-top: auto;
+    background: linear-gradient(135deg, #002b5b 0%, #004e92 100%);
+    border-top: 4px solid #FFD700;
+  }
+
+  .footer .form-control {
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .footer .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.4);
+    outline: none;
+  }
+
+  .footer .btn-warning {
+    background-color: #FFD700;
+    color: #002b5b;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .footer .btn-warning:hover {
+    background-color: #ffc107;
+    transform: translateY(-2px);
+  }
+
+  .footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #f0f0f0;
+    font-size: 0.85rem;
+  }
+
+  /* Map container */
+  .map-container iframe {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Responsif */
+  @media (max-width: 768px) {
+    .footer .form-control {
+      font-size: 0.85rem;
+    }
+  }
+</style>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sekolah Kalam Kudus</title>
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Optional: Tambahkan CSS global sendiri -->
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <header class="bg-white shadow-sm py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo Sekolah -->
+        <div class="d-flex align-items-center">
+            <img src="http://localhost/images/skkk_timika.png" alt="Logo Kalam Kudus" class="me-2" style="height: 50px;">
+        </div>
+
+        <!-- Sosial Media -->
+        <div class="d-flex align-items-center">
+            <!-- Instagram -->
+            <a href="ttps://www.instagram.com/kalamkudustmk/" target="_blank" class="text-decoration-none text-dark d-flex align-items-center me-3">
+                <i class="bi bi-instagram fs-4 me-1 text-danger"></i>
+                <span class="d-none d-lg-inline">@kalamkudustmk</span>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/kalamkudustmk.sch.id" target="_blank" class="text-decoration-none text-dark d-flex align-items-center me-3">
+                <i class="bi bi-facebook fs-4 me-1 text-primary"></i>
+                <span class="d-none d-lg-inline">kalamkudustmk.sch.id</span>
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/c/kalamkudustmk" target="_blank" class="text-decoration-none text-dark d-flex align-items-center">
+                <i class="bi bi-youtube fs-4 me-1 text-danger"></i>
+                <span class="d-none d-lg-inline">kalamkudustmk</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+  
+  <!-- NAVBAR UTAMA -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003366;">
+  <div class="container">
+    <!-- Tombol toggle untuk mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Navigasi -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " href="/">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/guru">Guru & Staff</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/siswa">Siswa / Kegiatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/berita">Berita & Pengumuman</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/majalah-dinding">Majalah Dinding</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/renungan">Renungan</a>
+        </li>
+
+        <!-- Alumni Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="alumniDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Alumni
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/alumni/kb-tk">KB-TK</a></li>
+            <li><a class="dropdown-item" href="/alumni/sd">SD</a></li>
+            <li><a class="dropdown-item" href="/alumni/smp">SMP</a></li>
+            <li><a class="dropdown-item" href="/alumni/sma">SMA</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="/galeri">Galeri Foto & Video</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="/tentang">Tentang Kami</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    color: #FFD700 !important;
+    text-decoration: underline;
+  }
+
+  .dropdown-menu {
+    background-color: #003366;
+  }
+
+  .dropdown-item {
+    color: white;
+  }
+
+  .dropdown-item:hover {
+    background-color: #002244;
+    color: #FFD700;
+  }
+</style>
+
+  
+  <main class="flex-grow-1">
+        
+<div class="container my-5">
+    <h2 class="text-center fw-bold mb-4">Tentang Kami</h2>
+
+    <!-- Sub Navbar -->
+    <div class="sub-nav overflow-auto mb-4">
+        <ul class="nav nav-pills justify-content-center flex-nowrap">
+            <li class="nav-item"><a class="nav-link " href="http://localhost/tentang/kb-tk">KB-TK</a></li>
+            <li class="nav-item"><a class="nav-link " href="http://localhost/tentang/sd">SD</a></li>
+            <li class="nav-item"><a class="nav-link " href="http://localhost/tentang/smp">SMP</a></li>
+            <li class="nav-item"><a class="nav-link " href="http://localhost/tentang/sma">SMA</a></li>
+            <li class="nav-item"><a class="nav-link " href="http://localhost/prestasi">Prestasi Siswa</a></li>
+        </ul>
+    </div>
+
+    
+
+     <!-- LOGO -->
+  <div class="flex flex-col items-center text-center mb-10">
+    <img src="http://localhost/images/logoskkk.png" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <h1 class="text-3xl font-bold text-gray-800">Makna Logo Kalam Kudus</h1>
+    <div class="w-24 h-1 bg-blue-600 mt-2"></div>
+  </div>
+
+  <!-- ISI MAKNA LOGO -->
+  <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">Warna Biru</h2>
+      <p>
+        Warna biru melambangkan <strong>kebijaksanaan, kedamaian, dan iman</strong>. 
+        Biru mencerminkan suasana tenang dan ketulusan hati dalam menjalankan visi 
+        pendidikan yang berpusat pada Kristus.
+      </p>
+    </div>
+
+    <div>
+      <h2 class="text-2xl font-semibold text-red-700 mb-2">Warna Merah</h2>
+      <p>
+        Warna merah melambangkan <strong>semangat, keberanian, dan kasih</strong>. 
+        Ini menggambarkan tekad sekolah Kalam Kudus untuk mencetak generasi yang penuh 
+        kasih dan berani menghadapi tantangan dengan iman dan karakter Kristiani.
+      </p>
+    </div>
+  </div>
+
+
+
+<br>
+
+  <!-- BAGIAN LOGO + MAKNA -->
+  <div class="row align-items-start justify-content-center mb-5">
+    <!-- Gambar Logo -->
+    <div class="col-12 col-md-5 text-center mb-4 mb-md-0">
+      <img src="http://localhost/images/makna.png" 
+           alt="Makna Logo Kalam Kudus" 
+           class="img-fluid rounded shadow-sm" 
+           style="max-width: 100%; height: auto;">
+    </div>
+
+    <!-- Penjelasan -->
+    <div class="col-12 col-md-7">
+      <div class="mb-4">
+        <h4 class="fw-bold text-primary">1. Perisai</h4>
+        <p class="text-secondary" style="text-align: justify;">
+          Perisai merupakan metafora dari iman, di mana salah satu unsur iman adalah pengetahuan (notitia). 
+          Pendidikan yang diberikan dalam SKKK adalah pendidikan yang terintegrasi dengan firman Tuhan yang 
+          adalah Alkitab, sehingga melalui pendidikan yang diberikan, murid-murid SKKK mengetahui apa yang 
+          dipercayainya.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="fw-bold text-primary">2. Lambang Salib</h4>
+        <p class="text-secondary" style="text-align: justify;">
+          Salib menunjuk pada tindakan penebusan (<em>redemption</em>) yang Yesus Kristus telah lakukan. 
+          Tindakan penebusan ini membawa gambar dan rupa Allah yang telah rusak dapat dipulihkan untuk 
+          semakin hari semakin serupa dengan Yesus Kristus, gambar Allah yang sulung. Melalui penebusan 
+          Kristus, setiap stakeholder dalam SKKK semakin hari semakin serupa dengan Yesus Kristus, gambar 
+          Allah yang sulung tersebut.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="fw-bold text-primary">3. Alkitab</h4>
+        <p class="text-secondary" style="text-align: justify;">
+          Selain lambang salib, ada lambang Alkitab. Dalam menjalankan sebuah kegiatannya, semua stakeholder SKKK menjadikan Alkitab, Perjanjian Lama dan Perjanjian Baru sebagai dasar dan landasannya.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="fw-bold text-primary">4. Tulisan Kalam Kudus dan singkatannya dalam dua huruf, yaitu KK</h4>
+        <p class="text-secondary" style="text-align: justify;">
+          KK menunjukkan identitas sekolah. Tulisan Kalam Kudus ditulis dalam sebuah pita berwarna merah yang berarti bahwa setiap unit SKKK dipersatukan oleh sebuah ikatan persaudaraan dalam tubuh Kristus. Ikatan persaudaraan ini yang membuat SKKK menjadi kuat dan dapat memberikan dampak nyata bagi dunia pendidikan.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <div class="flex flex-col items-center text-center mb-10">
+    <h1 class="text-3xl font-bold text-gray-800">VISI & MISI</h1>
+    <div class="w-24 h-1 bg-blue-600 mt-2"></div>
+  </div>
+
+  <div>
+      <h2 class="text-2xl font-semibold text-red-700 mb-2">VISI</h2>
+      <p>
+        Terbangunnya manusia utuh yang takut akan Tuhan, mandiri, dan berguna bagi dunia.
+      </p>
+    </div>
+
+    <div>
+      <h2 class="text-2xl font-semibold text-red-700 mb-2">MISI</h2>
+     <ol >
+            <li>Mengajak murid, tenaga pendidik, dan tenaga kependidikan untuk memiliki hati yang takut akan Tuhan.</li>
+            <li>Membimbing murid, tenaga pendidik, dan tenaga kependidikan supaya mengasihi sesama manusia dan menghargai lingkungan alam ciptaan Tuhan.</li>
+            <li>Membina murid, tenaga pendidik, dan tenaga kependidikan bertumbuh menjadi manusia yang sehat mental, berbudi pekerti luhur, dan bertanggung jawab sesuai nilai kebenaran.</li>
+            <li>Memberikan pengetahuan yang berkualitas kepada murid, tenaga pendidik, dan tenaga kependidikan sesuai tuntutan perkembangan zaman.</li>
+            <li>Melengkapi murid, tenaga pendidik, dan tenaga kependidikan dengan keterampilan yang berkualitas sesuai kebutuhan dan potensi untuk pengembangan dirinya.</li>
+            <li>Memberdayakan semua yang berkepentingan untuk menjadi insan pendidikan.</li>
+        </ol>
+    </div>
+<br>
+  <div>
+    <div class="flex flex-col items-center text-center mb-10">
+    <img src="http://localhost/images/nilaiinti.jpg" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <h1 class="text-3xl font-bold text-gray-800">Nilai Inti (Core Value)</h1>
+    <div class="w-24 h-1 bg-blue-600 mt-2"></div>
+  </div>
+
+  <!-- ISI MAKNA LOGO -->
+  <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">Keterangan</h2>
+      <ol >
+            <li>Bentuk Lingkaran melambangkan keutuhan atau holistik dari nilai-nilai inti yang merupakan turunan visi Sekolah Kristen Kalam Kudus.</li>
+            <li>Warna merah: melambangkan darah Kristus yang mengasihi manusia.</li>
+            <li>Warna biru: melambangkan kearifan sebagai bentuk dari sikap mandari.</li>
+            <li>Warna hijau: melambangkan perdamaian dan pertumbuhan yang terlihat melalui karya nyata yang berguna.</li>
+        </ol>
+    </div>
+
+    
+  <div>
+     <div class="flex flex-col items-center text-center mb-10">
+    <img src="http://localhost/images/pilarkalamkudus.jpg" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <h1 class="text-3xl font-bold text-gray-800">Pilar Utama</h1>
+    <div class="w-24 h-1 bg-blue-600 mt-2"></div>
+  </div>
+
+  <!-- ISI MAKNA LOGO -->
+  <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">Keterangan</h2>
+      <ol >
+            <li>Kerohanian adalah aspek yang mendasari seluruh aktivitas sekolah, kehidupan kerohanian pribadi per pribadi (yayasan, direktur pelaksana, kepala sekolah, guru/ staff, siswa, rang tua sampai kepada pembantu sekolah),  kurikulum dan peraturan-peraturan organisasinya.  Stakeholder memiliki iman yang percaya kepada Tuhan Yesus sebagai Juruselamat dan bertumbuh di dalam kedewasaan di dalam Kristus.  Kurikulum, peraturan-peraturan sekolah,  organisasi dan seluruh ketentuan-ketentuan dirancang berlandaskan pandangan kristiani.  Peserta didik diajarkan sejak dini tentang pandangan kristiani dalam pembelajaran.  Tujuan diajarkannya kerohani dan andangan kristiani agar setiap peserta didik memiliki pandangan hidup kristiani yang mendasari pertumbuhan mereka sampai di dalam seluruh aspek kehidupannya.</li>
+            <li>Ilmu pengetahuan (Knowledge)  adalah anugerah Tuhan sehingga setiap manusia dapat mempelajari secara baik akan tetapi anak Tuhan dipanggil mempelajari ilmu pengetahuan untuk menjawab mandat Allah, yakni menguasi dan memelihara bumi.  Menggunakan ilmu pengetahuannya menjadi pemimpin yang men-sejahtera-kan masyakarat dan bangsa.</li>
+            <li>Keterampilan merupakan  aspek yang sangat penting dalam dunia modern yang sangat kompleks.  Dengan kompleksitas yang begitu luar biasa ini maka dibutuhkan sekolah yang melengkapi keterampilan hidup bagi peserta didiknya.  SKKK di dalam proses pembelajaran ilmu pengetahuan juga berintegrasi pembelajaran keterampilan di kelas maupun di luar kelas.  Keterampilan harus berjalan bersama di kelas sehingga tercipta pembelajaran yang terpadu.</li>
+            <li>Karakter.  Karakter harus dibentuk dalam proses pembelajaran sejak dini supaya peserta didik memiliki karakter yang tangguh dalam menghadapi hidup serta tantangan jaman.  Sekolah Kristen Kalam Kudus Timika mendesain kurikulum karakter yang melibatkan yayasan, direktur pelaksana, kepala sekolah, para guru dan siswa, orang tua, staff serta seluruh personal yang terlibat dalam sekolah untuk belajar dan mengembangkan karakter yang semakin menyerupai Kristus.  Pembelajaran karakter tidak hanya disampaikan dalam pelajaran, tetapi juga didesain dalam proyek, program-program secara utuh sehingga setiap anggota Sekolah Kristen Kalam Kudus Timika adalah pembelajaran karakter dan menjadi perilaku yang baik dalam hidup ini. </li>
+            <li>Karakter utama yang diharapkan dapat terbentuk dalam diri siswa yang lulus dari SKKK Timika dihasilkan dari  nilai inti (core value) SKKK Timika.</li>
+
+          </ol>
+    </div>
+<br>
+  <div>
+    <div class="flex flex-col items-center text-center mb-10">
+    <img src="http://localhost/images/kurikulum.jpg" alt="Logo Kalam Kudus" class="w-32 h-32 mb-4">
+    <h1 class="text-3xl font-bold text-gray-800">Kurikulum Sekolah Kristen Kalam Kudus</h1>
+    <div class="w-24 h-1 bg-blue-600 mt-2"></div>
+  </div>
+
+  <!-- ISI MAKNA LOGO -->
+  <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">iB-Learning dengan CFRC</h2>
+      <p>Sejalan dengan tujuan pendidikan nasional, Sekolah Kristen Kalam Kudus Timika meneguhkan visi dan misinya untuk mendidik dan menanamkan pengetahuan dan keterampilan terkini yang terintegrasi dengan iman Kristen dan nilai-nilai Kristiani untuk mewujudkan masyarakat yang mampu menjawab dan memenuhi panggilan mereka.</p>
+    </div>
+    <h2 class="text-3xl font-bold text-gray-800">Sekolah Kristen Kalam Kudus Timika menggunakan iB-Learning (integrated blended learning) dalam kurikulum pendidikan.</h2>
+    <p>iB-Learning menonjolkan hal-hal berikut:</p>
+    <ol>
+      <li>Pandangan dunia Kristen, Penciptaan, Kejatuhan, Penebusan & Konsumasi (CFRC (Creation, Fall, Redemtion, Consummation))</li>
+      <li>Mental dan Karakter Kristen global</li>
+      <li>Pengetahuan dan pola pikir Kristen global</li>
+      <li>Keterampilan yang bermanfaat global</li>
+      <li>Hidup sehat dan seimbang.</li>
+    </ol>
+    <p>
+      Dengan menempatkan konsep Penciptaan, Kejatuhan dan Konsumasi (CFRC: Creation, Fall, Redemtion, Consummation) sebagai pusat atau inti dari kurikulum, iB-Learning, menggunakan model pembelajaran dan pendekatan terintegrasi dengan blended beserta komponen-komponennya, menyatakan secara langsung konsep CFRC dengan pengetahuan dan keterampilan yang dipelajari guna membangun mental dan karakter Kristen global dalam kehidupan yang sehat dan seimbang.
+
+    </p>
+  </div>
+
+  <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">CFRC</h2>
+      <h5 class="text-2xl font-semibold text-blue-700 mb-2">Creation, Fall, Redemtion, Consummation</h5>
+      <p>CFRC adalah inti dari pandangan dunia Kristen sebagai dasar filosofi pendidikan Kristen. Pandangan dunia Kristen adalah cara memandang sesuatu, kerangka pikiran, arah pemikiran atau paradigma yang didasarkan pada iman Kristen. Christian Worldview melengkapi orang yang percaya untuk menyadari kedaulatan TUHAN dalam hidup manusia. Christian Worldview adalah media integrasi antara iman dan semua aspek kehidupan manusia.</p>
+    </div>
+  </div>
+
+  <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h5 class="text-2xl font-semibold text-blue-700 mb-2">A. Penciptaan</h5>
+      <p>Allah adalah Pencipta langit dan bumi dan segala isinya (Kej. 1:1). Pengakuan akan Allah sebagai Pencipta menjadi pokok penting di dalam melandasi seluruh pemikiran dan keberadaan manusia di dalam melihat seluruh tatanan dunia ciptaan Allah. Allah menciptakan dari yang tidak ada (creatio ex nihilo) menjadi ada. Allah menciptakan segala sesuatu dan semua yang diciptakan sungguh amat baik. Allah memberikan mandat kepada manusia untuk mengelola segenap ciptaan (Ke. 1:28).</p>
+    </div>
+  </div>
+
+  <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h5 class="text-2xl font-semibold text-blue-700 mb-2">B. Kejatuhan</h5>
+      <p>Kejatuhan manusia pertama ke dalam dosa dengan melanggar perintah Allah memiliki akibat signifikan bagi seluruh makhluk hidup, bukan hanya kepada manusia saja. Alkitab dengan jelas mengatakan pelanggaran terhadap perintah Allah menjadikan manusia "buta" atau "tuli" hati mereka gelap dan pikiran mereka buta sehingga tidak bisa melihat kemuliaan Allah (2 Kor. 4:4; Efesus 4:18). Jadi dapat disimpulkan bahwa dapat dosa menyentuh seluruh ciptaan sehingga tidak ada sesuatu yang diciptakan yang tidak bersentuh oleh dampak yang merusak akibat kejatuhan manusia dalam dosa, termasuk juga rasionalitas manusia.</p>
+    </div>
+  </div>
+
+  <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h5 class="text-2xl font-semibold text-blue-700 mb-2">C. Penebusan</h5>
+      <p>Penebusan Kristus di atas kayu salib memiliki dampak kosmis, yaitu memulihkan seluruh tatanan ciptaan. Allah bukan hanya menebus jiwa manusia, Ia menebus seluruh keutuhan hidup manusia. Pertobatan memberikan arah baru kepada pikiran, emosi, kehendak dan perilaku. Penebusan Kristus memberikan status manusia baru (2 Kor. 5:17) dan memberikan kepada manusia hati baru (a new heart) dan semangat yang baru (a new spirit) (Yeh. 36:26). </p>
+    </div>
+  </div>
+
+   <div class="space-y-8 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+    <div>
+      <h5 class="text-2xl font-semibold text-blue-700 mb-2">D. Konsumasi</h5>
+      <p>Konsumasi (Consummation) adalah kesadaran interdependensi manusia dengan dunia ciptaan Allah. Kesadaran interdependensi ini berkaitan dengan status baru dimana penebusan Kristus telah memperbaharui hati dan pikiran manusia sehingga mampu melihat dengan benar dunia realitas ciptaan Allah sesuai dengan maksud dan tujuan penciptaan Allah. Konsumasi ini merupakan panggilan bagi setiap umat Allah untuk hidup memuliakan Allah dengan menjadi berkat bagi sesama. </p>
+    </div>
+  </div>
+
+
+
+</div>
+
+<style>
+    .sub-nav {
+        border-bottom: 2px solid #eee;
+    }
+
+    .sub-nav .nav-link {
+        color: #333;
+        font-weight: 500;
+        margin: 0 5px;
+        border-radius: 30px;
+        transition: all 0.3s;
+        white-space: nowrap;
+    }
+
+    .sub-nav .nav-link:hover {
+        background-color: #f0f0f0;
+    }
+
+    .sub-nav .nav-link.active {
+        background-color: #0d6efd;
+        color: #fff;
+    }
+
+    .hover-card {
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .hover-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+
+
+  </main>
+
+  
+  <footer class="footer text-white mt-5">
+  <div class="container py-5">
+    <div class="row">
+      <!-- Kiri: Logo + Tagline + Sosmed + Peta -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start">
+        <img src="http://localhost/images/skkk_timika_footer.png" 
+             alt="Logo Sekolah Kalam Kudus Timika" 
+             class="img-fluid mb-3" 
+             style="max-height: 90px;">
+        
+        <p class="fw-semibold fst-italic mb-4" style="font-size: 0.95rem;">
+          “Terbangunnya Manusia Utuh yang Takut akan Tuhan, Mandiri, dan Berguna bagi Dunia.”
+        </p>
+
+        <!-- Sosial Media -->
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 mb-3">
+          <a href="https://www.facebook.com/kalamkudustmk.sch.id" target="_blank" class="text-white fs-4">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/kalamkudustmk/" target="_blank" class="text-white fs-4">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/c/kalamkudustmk" target="_blank" class="text-white fs-4">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+
+        <!-- Peta Lokasi -->
+        <div class="map-container mt-3">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.2739735916791!2d136.8859101!3d-4.576795499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6823794984c2e0b7%3A0xd0d0fa7ff0c5413b!2sKalam%20kudus!5e0!3m2!1sid!2sid!4v1762484020949!5m2!1sid!2sid" 
+            width="100%" 
+            height="200" 
+            style="border:0; border-radius: 10px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Kanan: Form Hubungi Kami -->
+      <div class="col-md-6">
+        <h5 class="fw-bold mb-3 text-center text-md-start">Hubungi Kami</h5>
+        <form action="#" method="POST" class="footer-form">
+          <input type="hidden" name="_token" value="1UQfeBYFFGwAN3Ov3WqCQaPQkyvZMw1tFeFeaiTV" autocomplete="off">          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Alamat Email" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nomor Telepon" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Pesan Anda..." required></textarea>
+          </div>
+          <div class="text-center text-md-start">
+            <button type="submit" class="btn btn-warning fw-semibold px-4">
+              Kirim
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Garis bawah footer -->
+  <div class="footer-bottom text-center py-3 mt-4">
+    <small>© 2025 Sekolah Kristen Kalam Kudus Timika. All rights reserved.</small>
+  </div>
+</footer>
+
+<style>
+  /* Footer Style */
+  
+  .footer {
+    margin-top: auto;
+    background: linear-gradient(135deg, #002b5b 0%, #004e92 100%);
+    border-top: 4px solid #FFD700;
+  }
+
+  .footer .form-control {
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .footer .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.4);
+    outline: none;
+  }
+
+  .footer .btn-warning {
+    background-color: #FFD700;
+    color: #002b5b;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .footer .btn-warning:hover {
+    background-color: #ffc107;
+    transform: translateY(-2px);
+  }
+
+  .footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #f0f0f0;
+    font-size: 0.85rem;
+  }
+
+  /* Map container */
+  .map-container iframe {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Responsif */
+  @media (max-width: 768px) {
+    .footer .form-control {
+      font-size: 0.85rem;
+    }
+  }
+</style>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
