@@ -27,7 +27,7 @@
             Pendidikan anak usia dini adalah sebuah perjalanan kolaboratif antara sekolah dan rumah.
             Di KBTK Kristen Kalam Kudus Timika, kami percaya bahwa setiap anak unik dan berharga.
           </p>
-          <a href="{{ url('/tentangkami') }}" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
+          <a href="/tentang" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -41,7 +41,7 @@
             Kami berkomitmen menanamkan nilai-nilai Kristiani dan kecerdasan moral
             agar setiap siswa menjadi pribadi yang berkarakter, cerdas, dan berintegritas.
           </p>
-          <a href="{{ url('/tentangkami') }}" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
+          <a href="/tentang" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@
             Melalui pendidikan yang menyeluruh, Kalam Kudus Timika membantu siswa
             bertumbuh dalam iman, pengetahuan, dan karakter untuk masa depan yang gemilang.
           </p>
-          <a href="{{ url('/tentangkami') }}" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
+          <a href="/tentang" class="btn btn-outline-light btn-sm fw-semibold rounded-pill px-3">Baca Selengkapnya</a>
         </div>
       </div>
     </div>
@@ -100,7 +100,7 @@
         </ol>
            
         <br>
-        <a href="{{ url('/smart') }}" class="btn btn-primary rounded-pill fw-semibold px-4 py-2 shadow-sm">
+        <a href="/tentang" class="btn btn-primary rounded-pill fw-semibold px-4 py-2 shadow-sm">
           Selengkapnya
         </a>
       </div>
@@ -115,7 +115,7 @@
     <!-- Judul + Tombol "Lihat Semua" -->
     <div class="d-flex justify-content-between align-items-center mb-4">
       <h2 class="fw-bold mb-0" style="color:#0d47a1;">Pengumuman Sekolah</h2>
-      <a href="{{ url('/pengumuman') }}" class="btn btn-outline-primary rounded-pill fw-semibold">
+      <a href="/tentang" class="btn btn-outline-primary rounded-pill fw-semibold">
         Lihat Semua
       </a>
     </div>
@@ -138,7 +138,7 @@
           <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
             {{ \Illuminate\Support\Str::words('Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.', 20, '...') }}
           </p>
-          <a href="{{ url('/pengumuman/'.$i) }}" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
         </div>
       </div>
       @endfor
@@ -198,7 +198,7 @@
     <!-- Judul + Tombol "Lihat Semua" -->
     <div class="d-flex justify-content-between align-items-center mb-4">
       <h2 class="fw-bold mb-0" style="color:#0d47a1;">Prestasi</h2>
-      <a href="{{ url('/prestasi') }}" class="btn btn-outline-primary rounded-pill fw-semibold">
+      <a href="/prestasi" class="btn btn-outline-primary rounded-pill fw-semibold">
         Lihat Semua
       </a>
     </div>
@@ -221,7 +221,7 @@
           <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
             {{ \Illuminate\Support\Str::words('Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.', 20, '...') }}
           </p>
-          <a href="{{ url('/berita/'.$i) }}" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+          <a href="/berita" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
         </div>
       </div>
       @endfor
@@ -260,7 +260,7 @@
           <p class="card-text text-secondary" style="min-height: 60px; text-align: justify;">
             {{ \Illuminate\Support\Str::words('Pemberitahuan penting bagi orang tua murid terkait kegiatan sekolah minggu depan. Pastikan hadir dalam pertemuan.', 20, '...') }}
           </p>
-          <a href="{{ url('/pengumuman/'.$i) }}" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
+          <a href="/tentang" class="btn btn-outline-primary mt-2 rounded-pill fw-semibold">Baca Selengkapnya</a>
         </div>
       </div>
       @endfor
