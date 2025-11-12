@@ -2,7 +2,7 @@
     <div class="container d-flex justify-content-between align-items-center">
         <!-- Logo Sekolah -->
         <div class="d-flex align-items-center">
-            <img src="/assets/images/skkk_timika.png" alt="Logo Kalam Kudus" class="me-2" style="height: 50px;">
+            <img src="./images/skkk_timika.png" alt="Logo Kalam Kudus" class="me-2" style="height: 50px;">
         </div>
 
         <!-- Sosial Media -->
